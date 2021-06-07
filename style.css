@@ -88,11 +88,17 @@ label{
 
 .photo{
     width: 100%;
-    height: 700px;
+    height: 800px;
     position: relative;
     background: url('https://i.pinimg.com/originals/b5/9b/c3/b59bc3e8f6a174ef3dccb9426edf03b5.gif') center;
     background-size: cover;
     overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+    .photo {
+        height: 800px;
+    }
 }
 
 .photo-text{
@@ -103,6 +109,18 @@ label{
     align-items: center;
 }
 
+@media screen and (max-width: 500px) {
+    .photo-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .h4-title {
+        display: flex; justify-content: center;
+
+    }
+}
+
 .overlay{
     position: absolute;
     z-index: 1;
@@ -110,7 +128,6 @@ label{
     height: 200vh;
     top: 0;
     left: 0;
-    background: rgba(60, 63, 114, .6);
 }
 
 .photo h4{
@@ -128,9 +145,22 @@ label{
     width: 60%;
     text-align: center;
     letter-spacing: 1.5px;
-    color: #6D85A8;
+    color: white;
     position: relative;
     z-index: 998;
+}
+
+@media screen and (max-width: 500px) {
+    .photo-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .h4-title {
+        display: flex;
+        justify-content: center;
+        padding-left: 5rem;
+    }
 }
 
 .content{
@@ -147,8 +177,9 @@ label{
     position: absolute;
     top: -48px;
     left: 0;
-    background-color: rgba(43,43,43,0.95);
+    background-color: rgba(43,43,43,1);
     transform: skewY(5.5deg);/*8*/
+    margin-top: 2rem;
 }
 
 .content:after{
@@ -158,8 +189,9 @@ label{
     position: absolute;
     top: -48px;
     right: 0;
-    background-color: rgba(43,43,43,0.95);
+    background-color: rgba(43,43,43,1);
     transform: skewY(-5.5deg);/*8*/
+    margin-top: 2rem;
 }
 
 .grand-title{
@@ -191,6 +223,17 @@ label{
     margin: 25px auto;
     border: 0;
     background: #6D85A8;
+}
+
+@media screen and (max-width: 500px) {
+    .grand-title h4{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 1.2px;
+        margin: 0 30px;
+        color: #299FFF;
+    }
 }
 
 .text{

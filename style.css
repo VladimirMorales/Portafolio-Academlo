@@ -130,6 +130,24 @@ label{
     left: 0;
 }
 
+@media screen and (max-width: 500px) {
+    .main-title-h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-title-h2 {
+        font-size: 60px;
+        color: #299FFF;
+        margin: 0;
+    }
+    .main-title {
+        font-size: 60px;
+        color: #299FFF;
+        margin-bottom: 0;
+    }
+}
+
 .photo h4{
     font-size: 60px;
     text-transform: uppercase;

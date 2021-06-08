@@ -109,17 +109,17 @@ label{
     align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
     .photo-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     .h4-title {
-        display: flex; justify-content: center;
-
+        display: flex;
+        justify-content: center;
     }
-}
+}*/
 
 .overlay{
     position: absolute;
@@ -128,6 +128,24 @@ label{
     height: 200vh;
     top: 0;
     left: 0;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+.main-title-h2 {
+    font-size: 60px;
+    color: #299FFF;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.main-title {
+    font-size: 60px;
+    color: #299FFF;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 500px) {
@@ -170,7 +188,7 @@ label{
     z-index: 998;
 }
 
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
     .photo-text {
         display: flex;
         flex-direction: column;
@@ -181,7 +199,7 @@ label{
         justify-content: center;
         padding-left: 5rem;
     }
-}
+}*/
 
 .content{
     width: 100%;
@@ -662,10 +680,10 @@ input{
 }
 
 
-@media screen and (max-width: 500px){
+/*@media screen and (max-width: 500px){
     #slider{margin-left: -55px;}
     .photo-text h4{font-size: 45px;}
-    .inner-text{width: 80%;}
+    .inner-text{width: 80%;}*/
 
 }
 

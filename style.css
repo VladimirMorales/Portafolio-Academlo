@@ -109,18 +109,6 @@ label{
     align-items: center;
 }
 
-/*@media screen and (max-width: 500px) {
-    .photo-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .h4-title {
-        display: flex;
-        justify-content: center;
-    }
-}*/
-
 .overlay{
     position: absolute;
     z-index: 1;
@@ -136,12 +124,14 @@ label{
     justify-content: center;
     font-family: 'Raleway', sans-serif;
 }
+
 .main-title-h2 {
     font-size: 60px;
     color: #299FFF;
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
+
 .main-title {
     font-size: 60px;
     color: #299FFF;
@@ -187,19 +177,6 @@ label{
     position: relative;
     z-index: 998;
 }
-
-/*@media screen and (max-width: 500px) {
-    .photo-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .h4-title {
-        display: flex;
-        justify-content: center;
-        padding-left: 5rem;
-    }
-}*/
 
 .content{
     width: 100%;
@@ -677,14 +654,6 @@ input{
         color: #299FFF;
     }
     #toggle:checked + .menu{display: block; background-color: rgba(43,43,43,0.95);}
-}
-
-
-/*@media screen and (max-width: 500px){
-    #slider{margin-left: -55px;}
-    .photo-text h4{font-size: 45px;}
-    .inner-text{width: 80%;}*/
-
 }
 
 @keyframes slider{
